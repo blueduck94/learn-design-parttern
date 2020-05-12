@@ -57,17 +57,17 @@ class HtmlBuilder:
 
 
 # if you want to build a simple HTML paragraph using a list
-hello = 'hello'
-parts = ['<p>', hello, '</p>']
-print(''.join(parts))
+# hello = 'hello'
+# parts = ['<p>', hello, '</p>']
+# print(''.join(parts))
 
 # now I want an HTML list with 2 words in it
-words = ['hello', 'world']
-parts = ['<ul>']
-for w in words:
-    parts.append(f'  <li>{w}</li>')
-parts.append('</ul>')
-print('\n'.join(parts))
+# words = ['hello', 'world']
+# parts = ['<ul>']
+# for w in words:
+#     parts.append(f'  <li>{w}</li>')
+# parts.append('</ul>')
+# print('\n'.join(parts))
 
 # ordinary non-fluent builder
 # builder = HtmlBuilder('ul')
